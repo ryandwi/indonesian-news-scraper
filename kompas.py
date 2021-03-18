@@ -1,5 +1,4 @@
 import requests
-import pandas as pd
 from bs4 import BeautifulSoup
 
 baseurl = 'https://indeks.kompas.com/?site=all&date=2021-03-18'
