@@ -31,6 +31,4 @@ for i in range(1, int(jumlah_page)):
                 'date': date
             })
 
-df = pd.DataFrame(result)
-df.to_csv('all_news.csv', encoding='utf-8')
-# print(pd)
+print(result)
